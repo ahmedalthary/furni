@@ -44,11 +44,11 @@
 // };
 // sitePlusMinus();
 // // Toggle navbar
-// let togglerBtn = document.querySelector(".navbar-toggler");
-// let navbarCollapse = document.querySelector(".custom-navbar-collapse");
-// togglerBtn.addEventListener("click", () => {
-//   navbarCollapse.classList.toggle("collapsed");
-// });
+let togglerBtn = document.querySelector(".navbar-toggler");
+let navbarCollapse = document.querySelector(".custom-navbar-collapse");
+togglerBtn.addEventListener("click", () => {
+  navbarCollapse.classList.toggle("collapsed");
+});
 
 // // Login Signup Form
 // function toggleSignup() {
@@ -68,5 +68,3 @@
 //   document.getElementById("signup-form").style.display = "none";
 //   document.getElementById("login-form").style.display = "block";
 // }
-console.log(__filename);
-console.log(__dirname);
